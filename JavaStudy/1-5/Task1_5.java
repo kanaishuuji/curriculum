@@ -10,14 +10,16 @@ public class Task1_5 {
     public static void main(String[] args) {
 
         // ① 「みかん」、「りんご」、「ぶどう」、「メロン」の値を設定した配列 fluits を作成してください。
-        String [] fluits = {"みかん","りんご","ぶどう"};
+      String [] fluits = {"「みかん」","「りんご」","「ぶどう」","「メロン」"};
 
         // ② for文を使って①で作成した配列を出力しなさい。
-
-
+      for(int i=0;i < fluits.length;i++){
+        System.out.println(fluits[i]);
+      }
+        
         // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
         /*
-        *  [1から100までを出力させることができる]
+        *  [1から100まで値を出力させることができる]
         */
         int i = 1;
         while(i <= 100) {
@@ -32,7 +34,7 @@ public class Task1_5 {
                 System.out.print("" +k* s + "|"+"");
             }
             System.out.println();
-            System.out.println();
+            
         }
 
 
