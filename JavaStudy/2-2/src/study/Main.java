@@ -17,7 +17,6 @@ public class Main {
         // ① 以下のルールに従いAccountクラスのインスタンスを生成してください。
         // 変数名:「account」
         Account account = new Account("shuuji",1,"kanai");
-        // ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
        account.printAccountInfo();
     }
 }
