@@ -1,8 +1,8 @@
 package study;
 
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.List;
 import java.util.Map.Entry;
 
 /**
@@ -23,14 +23,14 @@ public class Study {
     public static void main(String args[]) {
 
         // ① 定数を全て使って、String型のListを記述してください。
-        Map<Integer,String> shohinList = new HashMap<Integer,String>();
-        shohinList.put(3,"バナナ");
-        shohinList.put(1,"牛乳");
-        shohinList.put(2, "豚肉");
-        shohinList.put(0,"コロッケ");
+        List<String> shohinList = new ArrayList<>();
+        shohinList.add("バナナ");
+        shohinList.add("牛乳");
+        shohinList.add( "豚肉");
+        shohinList.add("コロッケ");
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
-         * [１になった時に１８０とでる]
+         * [shoMapのリストにshoListにキーが１の名前と値段を追加している]
          *
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
